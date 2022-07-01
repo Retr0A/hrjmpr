@@ -7,6 +7,10 @@ public class GraphicsObject : ScriptableObject
 {
     [Header("Effects")]
     public bool shouldUsePostProcess;
+
     [Header("Shadows")]
     public bool shouldUseShadows;
+
+    [Header("Display")]
+    public bool shouldUseFullscreen;
 }
