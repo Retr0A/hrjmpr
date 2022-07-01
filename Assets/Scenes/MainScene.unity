@@ -641,7 +641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fba575c1640d544db3e2d9c5f9eb712, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  graphicsObject: {fileID: 11400000, guid: 907a0a25d44dd6142b1c2492fd3bb1cb, type: 2}
+  settingsObject: {fileID: 11400000, guid: 907a0a25d44dd6142b1c2492fd3bb1cb, type: 2}
   postProcessObject: {fileID: 2132738260}
 --- !u!4 &615308162
 Transform:

@@ -10,7 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf03bd52d567ee94a88cfa7fe0d127df, type: 3}
-  m_Name: DefaultGraphics
+  m_Name: DefaultSettings
   m_EditorClassIdentifier: 
   shouldUsePostProcess: 1
   shouldUseShadows: 1
+  shouldUseFullscreen: 1
+  shouldShowFPS: 0

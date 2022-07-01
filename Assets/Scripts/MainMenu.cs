@@ -9,6 +9,7 @@ public class MainMenu : MonoBehaviour
 
     public GameObject settingsMenu;
     public GameObject mainMenu;
+    public GameManager gameManager;
 
     public void NewGame()
     {
@@ -35,9 +36,14 @@ public class MainMenu : MonoBehaviour
         mainMenu.SetActive(!mainMenu.activeSelf);
     }
 
+    public void ToggleShouldSHowFPS()
+    {
+        gameManager.settingsObject.shouldShowFPS = !gameManager.settingsObject.shouldShowFPS;
+    }
+
     public void SetFullscreen(bool fullscreen)
     {
         Screen.fullScreen = fullscreen;
-        GameObject.Find("GameManager").GetComponent<GameManager>().graphicsObject.shouldUseFullscreen = fullscreen;
+        gameManager.settingsObject.shouldUseFullscreen = fullscreen;
     }
 }

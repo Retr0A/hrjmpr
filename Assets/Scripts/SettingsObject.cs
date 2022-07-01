@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Graphics Object", menuName = "Graphics Object")]
-public class GraphicsObject : ScriptableObject
+[CreateAssetMenu(fileName = "New Settings Object", menuName = "Settings Object")]
+public class SettingsObject : ScriptableObject
 {
     [Header("Effects")]
     public bool shouldUsePostProcess;
@@ -13,4 +13,5 @@ public class GraphicsObject : ScriptableObject
 
     [Header("Display")]
     public bool shouldUseFullscreen;
+    public bool shouldShowFPS;
 }
